@@ -1,41 +1,40 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<title>Twitch Viewer</title>
- 		<meta charset = "utf-8">
+		<meta charset = "utf-8">
 		<link rel= "stylesheet" href = "TwitchViewer.css">
 		<link rel= "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script type="text/javascript" src = 'clientID.js' defer></script>
 		<script type = "text/javascript" src= "TwitchViewer.js" defer></script>	
- 	</head>
+	</head>
 
- 	<body>
- 		<div class = "jumbotron">
+	<body>
+		<div class = "jumbotron">
+			<div class = "header">
+				<h1><img src = "fonts/Twitch_White.png" id = "logo"><span id = "head1"> Viewer</span></h1>
+			</div>
+		</div>
 
- 			<div class = "header">	
- 				<h1><img src = "fonts/Twitch_White.png" id = "logo"><span id = "head1"> Viewer</span></h1>
- 			</div>
- 		</div>
-
- 		<ul class = "nav navbar-inverse nav-justified">
- 			<li class="col-lg-5"><a id = "navBtnOn" >ONLINE</a></li>
+		<ul class = "nav navbar-inverse nav-justified">
+			<li class="col-lg-5"><a id = "navBtnOn" >ONLINE</a></li>
  			<li class="col-lg-2"><a id = "navBtnAll" >ALL</a></li>
-	 		<li class="col-lg-5"><a id ="navBtnOff" >OFFLINE</a></li>
-	 	</ul>
- 		
+ 			<li class="col-lg-5"><a id ="navBtnOff" >OFFLINE</a></li>
+ 		</ul>
+
  		<div class = "container">
  			<div class = "input-group">
  				<input id = "addStream" type="text" class = "form-control" placeholder = "Add A Streamer">
  				<div class = "input-group-btn">
  					<button id = "enterBtn" class = "btn btn-default">
  						<i id = "enterIcon" class = "glyphicon glyphicon-plus"></i>
-					</button>
-				</div>
-			</div>
-		</div>
-	</body>
+ 					</button>
+ 				</div>
+ 			</div>
+
+ 			<div class = "row text-center"></div>
+ 		</div>
+ 	</body>
 </html>
 
 

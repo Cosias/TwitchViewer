@@ -5,7 +5,6 @@ $(document).ready(function(){
 	
 	checkUser(streamers);
 
-
 	function addStreamer(streamer){
 		var streamerName;
 		var streamPreview;
